@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables with Tailwind CSS</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <div class="container flex gap-3 mt-5 text-center">
+      <div>
+        <table class="border border-blue-400 text-sm">
+          <thead>
+            <tr class="bg-blue-100">
+              <th class="border border-dotted border-blue-300 w-24">용도</th>
+              <th class="border border-dotted border-blue-300 w-24">중량</th>
+              <th class="border border-dotted border-blue-300 w-24">개수</th>
+              <th class="border border-dotted border-blue-300 w-24">가격</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2" class="border border-dotted border-blue-300">
+                선물용
+              </td>
+              <td>3KG</td>
+              <td>11~16과</td>
+              <td>3,5000원</td>
+            </tr>
+            <tr>
+              <!-- <td></td> -->
+              <td>5KG</td>
+              <td>18~26과</td>
+              <td>52,000원</td>
+            </tr>
+            <tr>
+              <td rowspan="2" class="border border-dotted border-blue-300">
+                가정용
+              </td>
+              <td>3KG</td>
+              <td>11~16과</td>
+              <td>3,5000원</td>
+            </tr>
+            <tr>
+              <!-- <td></td> -->
+              <td>5KG</td>
+              <td>18~26과</td>
+              <td>52,000원</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="text-xs">
+          <caption class="caption-bottom">
+            선물용과 가졍용 상품구성
+          </caption>
+        </div>
+      </div>
+
+      <div>
+        <table class="border border-green-400 text-sm">
+          <thead>
+            <tr class="bg-green-100">
+              <th class="border border-dotted border-green-300 w-24">용도</th>
+              <th class="border border-dotted border-green-300 w-24">중량</th>
+              <th class="border border-dotted border-green-300 w-24">개수</th>
+              <th class="border border-dotted border-green-300 w-24">가격</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2" class="border border-dotted border-green-300">
+                선물용
+              </td>
+              <td>3KG</td>
+              <td>11~16과</td>
+              <td>3,5000원</td>
+            </tr>
+            <tr>
+              <!-- <td></td> -->
+              <td>5KG</td>
+              <td>18~26과</td>
+              <td>52,000원</td>
+            </tr>
+            <tr>
+              <td rowspan="2" class="border border-dotted border-green-300">
+                가정용
+              </td>
+              <td>3KG</td>
+              <td>11~16과</td>
+              <td>3,5000원</td>
+            </tr>
+            <tr>
+              <!-- <td></td> -->
+              <td>5KG</td>
+              <td>18~26과</td>
+              <td>52,000원</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="text-xs">
+          <caption class="caption-bottom">
+            선물용과 가졍용 상품구성
+          </caption>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

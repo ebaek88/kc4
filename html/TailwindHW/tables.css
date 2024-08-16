@@ -1,0 +1,35 @@
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+caption {
+  caption-side: bottom;
+  font-size: 0.75rem;
+}
+
+.table1 th,
+.table1 td {
+  border: 1px solid #1607f2;
+}
+
+.table1 th {
+  background-color: #089aee82;
+}
+
+.table2 th,
+.table2 td {
+  border: 1px solid #07f222;
+}
+
+.table2 th {
+  background-color: #67fb497e;
+}
