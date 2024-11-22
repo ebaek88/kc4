@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>수강신청</title>
+</head>
+<body>
+  <div>
+    <button id="btnKor">국어수업 요일선택</button>
+    <span id="korWeek">요일을 선택하세요!</span>
+  </div>
+
+  <div style="margin-top: 1rem;">
+    <button onclick="setWeek('math')">수학수업 요일선택</button>
+    <span id="mathWeek">요일을 선택하세요!</span>
+  </div>
+
+  <script>
+    const WEEKS = '일월화수목금토';
+    const getNextWeek = () => {
+      return () => {
+        
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const btnKor = document.getElementById('btnKor');
+      btnKor.addEventListener('click', () => {
+        document.getElementById('korWeek').innerText = korNextWeek();
+      });
+    })
+  </script>
+</body>
+</html>
